@@ -1410,22 +1410,39 @@ header .container .mega-menu ul li a i {
     .events form {
         margin-top: 30px;
         padding: 20px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        text-align: center;
     }
 
     .events form [type=email] {
         padding: 10px;
-        width: 200px;
-
+        width: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
     }
 
     .events form [type=submit] {
         padding: 10px;
         font-size: 13px;
         margin-left: 10px;
+        width: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin: 15px 0 0;
     }
 
     .events form [type=email]::placeholder {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 

@@ -1553,6 +1553,15 @@ header .container .mega-menu ul li a i {
     position: relative;
 }
 
+@media (max-width: 991px) {
+    .pricing .container .advanc {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+}
 .pricing .container .advanc .sticker {
     display: block;
     position: absolute;

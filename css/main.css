@@ -785,7 +785,7 @@ header .container .mega-menu ul li a i {
 .features .container .colum .image::after {
     content: "";
     position: absolute;
-    bottom: -1px;
+    bottom: -2px;
     right: 0;
     border-style: solid;
     border-width: 0px 0px 170px 500px;
